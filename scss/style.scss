@@ -1,0 +1,51 @@
+@import "../node_modules/bootstrap/dist/variables";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/dist/bootswatch";
+
+main {
+    margin-top: 20px;
+}
+
+.navbar-nav .nav-item {
+    color: $gray-600;
+}
+
+.fas.border {
+    border-radius: 50%;
+}
+
+.fas.complete {
+    background-color: $lucho;
+}
+
+.fas.incomplete {
+    background-color: $gray-400;
+}
+
+.bar {
+    width: 100px;
+    height: 5px;
+    background-color: $gray-400;
+}
+
+.bar.fill {
+    background-color: $lucho;
+}
+
+.chico{
+    font-size: 0.7rem;
+}
+
+.espaciado {
+   gap: 2rem; 
+}
+
+
+th.table-col {
+    border-right: 1px solid $gray-400;
+    font-style: to-lower-case($string: "");
+}
+
+th {
+    color: $dark !important;
+}

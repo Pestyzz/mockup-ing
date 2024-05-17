@@ -43,9 +43,13 @@ main {
 
 th.table-col {
     border-right: 1px solid $gray-400;
-    font-style: to-lower-case($string: "");
 }
 
 th {
     color: $dark !important;
+}
+
+input.form-control.sale {
+    width: 20%;
+    display: inline;
 }

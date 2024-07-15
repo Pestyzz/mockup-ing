@@ -1,2 +1,2 @@
 # mockup-ing
-Mockup Épaica Ing Software
+Mockup Épica Ing Software
